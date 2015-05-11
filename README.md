@@ -1,6 +1,8 @@
 ssh-auto-login-manage
 =====================
 
+注意：以下的guide不太适用了
+
 SSH auto login without password and managing ssh hosts list on Mac OSX & Linux.
 
 You can use these scripts instead of SecureCRT, xshell.
