@@ -8,15 +8,15 @@ user='username'
 password='password'
 port='22'
 
-if [ -z $2 ]; then
+if [ -n "$2" ]; then
     user=$2
 fi
 
-if [ -z $3 ]; then
+if [ -n "$3" ]; then
     password=$3
 fi
 
-if [ -z $4 ];then
+if [ -n "$4" ];then
     port=$4
 fi
 
