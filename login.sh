@@ -6,6 +6,7 @@ host=$1
 #default user & password
 user='username'
 password='password'
+port='22'
 
 if [ $2 ]; then
     user=$2
@@ -15,4 +16,8 @@ if [ $3 ]; then
     password=$3
 fi
 
-./auto_login.exp $host $user $password
+if [ $4 ];then
+    port=$4
+fi
+
+./auto_login.exp $host $user $password $port
